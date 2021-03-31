@@ -19,4 +19,16 @@ public class Contact implements Serializable {
 
     @Column(name = "job_type")
     private String jobType = "";
+
+    @Column(name = "phone_number")
+    private String phoneNumber = "";
+
+    @Column(name = "address")
+    private Integer contactAddress = 0;
+
+    @Column(name = "email")
+    private String contactEmail = "";
+
+    public Contact(){
+    };
 }
