@@ -1,0 +1,21 @@
+div.card>div.card-header{
+    color: purple;
+    font-weight: bolder
+}
+
+h1{
+    color:orange;
+}
+
+th, td {
+    text-align: center;
+    color: red;
+}
+
+label.output-label{
+    font-weight: bolder;
+    color: #ff50cd;
+    width: 150px;
+    text-align: right;
+    margin-right: 1em;
+}
